@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:background="#9E7C7C"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Them Sinh Vien"
+        android:textSize="30dp"
+        android:gravity="center"/>
+     <EditText
+         android:id="@+id/edtTen"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtSodt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtDiachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnLuuthem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luu"/>
+
+</LinearLayout>
